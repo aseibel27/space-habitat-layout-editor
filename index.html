@@ -6,7 +6,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="menu"></div>
+  <div id="menu">
+    <div class="tab-header">
+      <button class="tab-button active" data-tab="vessel">Vessel</button>
+      <button class="tab-button" data-tab="function">Function</button>
+      <button class="tab-button" data-tab="items">Items</button>
+      <button class="tab-button" data-tab="score">Score</button>
+    </div>
+
+    <div class="tab-content active" id="tab-vessel"></div>
+    <div class="tab-content" id="tab-function"></div>
+    <div class="tab-content" id="tab-items"></div>
+    <div class="tab-content" id="tab-score"></div>
+  </div>
+
   <script type="module" src="./main.js"></script>
 </body>
 </html>

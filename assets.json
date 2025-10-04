@@ -1,0 +1,4 @@
+[
+  { "name": "Cube 2m", "thumbnail": "assets/cube_2m.png", "glb": "assets/cube_2m.glb" },
+  { "name": "Cube 4m", "thumbnail": "assets/cube_4m.png", "glb": "assets/cube_4m.glb" }
+]
